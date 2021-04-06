@@ -12,6 +12,7 @@ function createDivs (n) {
         newDiv.classList.add('grid-box');
 
         mainContainer.appendChild(newDiv);
+        //TODO: make sure the CSS grid has the right number of rows and columns based on the user input
     }
 }
 
