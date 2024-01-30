@@ -9,16 +9,17 @@ body {
     height: 50vw;
     margin:auto;
     justify-content: flex-start;
-    gap: 5px;
+    gap: 0.2vw;
 }
 
 .grid-square {
-    flex-basis: 5%;
+    flex-basis: 2.65vw;
     border-style: solid;
     border-color: black;
+    aspect-ratio: 1/1;
 
 }
 
-.grid-square:hover {
+.visited {
     background-color: blue;
 }
