@@ -23,3 +23,8 @@ body {
 .visited {
     background-color: blue;
 }
+
+.set-grid-size {
+    display: block;
+    margin: 40px auto;
+}
